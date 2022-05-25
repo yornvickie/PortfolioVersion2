@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  overflow-x: hidden;
+}
+
+section {
+  height: 100vh;
+  background: #000;
+}
+
+section a {
+  text-decoration: none;
+}
+
+#smoke {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  opacity: 0.6;
+}
+
+.name {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 5rem;
+  letter-spacing: 0.2rem;
+}
+
+.name span {
+  opacity: 0;
+  display: inline-block;
+  animation: animate 1s linear forwards;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0px);
+  }
+}
+/* VICKIE YORN */
+h1 span:nth-child(1) {
+  /* V */
+  animation-delay: 1s;
+}
+h1 span:nth-child(2) {
+  /* I */
+  animation-delay: 1.5s;
+}
+h1 span:nth-child(3) {
+  /* C */
+  animation-delay: 2s;
+}
+h1 span:nth-child(4) {
+  /* K */
+  animation-delay: 2.5s;
+}
+h1 span:nth-child(5) {
+  /* I */
+  animation-delay: 2.75s;
+}
+h1 span:nth-child(6) {
+  /* E */
+  animation-delay: 3s;
+}
+h1 span:nth-child(7) {
+  animation-delay: 3.25s;
+}
+h1 span:nth-child(8) {
+  /* Y */
+  animation-delay: 3.5s;
+}
+h1 span:nth-child(9) {
+  /* O */
+  animation-delay: 3.75s;
+}
+h1 span:nth-child(10) {
+  /* R */
+  animation-delay: 4s;
+}
+h1 span:nth-child(11) {
+  /* N */
+  animation-delay: 4.2s;
+}
+/* WEB DEVELOPER */
+h1 span:nth-child(12) {
+  /* W */
+  animation-delay: 4.5s;
+}
+h1 span:nth-child(13) {
+  /* E */
+  animation-delay: 4.5s;
+}
+h1 span:nth-child(14) {
+  /* B */
+  animation-delay: 4.5s;
+}
+h1 span:nth-child(15) {
+  animation-delay: 4.5s;
+}
+h1 span:nth-child(16) {
+  /* D */
+  animation-delay: 4.5s;
+}
+h1 span:nth-child(17) {
+  /* E */
+  animation-delay: 4.5s;
+}
+h1 span:nth-child(18) {
+  /* V */
+  animation-delay: 4.5s;
+}
+h1 span:nth-child(19) {
+  /* E */
+  animation-delay: 4.5s;
+}
+h1 span:nth-child(20) {
+  /* L */
+  animation-delay: 4.5s;
+}
+h1 span:nth-child(21) {
+  /* O */
+  animation-delay: 4.5s;
+}
+h1 span:nth-child(22) {
+  /* P */
+  animation-delay: 4.5s;
+}
+h1 span:nth-child(23) {
+  /* E */
+  animation-delay: 4.5s;
+}
+h1 span:nth-child(24) {
+  /* R */
+  animation-delay: 4.5s;
+}
+h1 span:nth-child(25) {
+  
+  animation-delay: 4.5s;
+}
+
+
+nav {
+  background-color: #151531;
+  min-height: 50px;
+  padding: 5px 0;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  padding: 10px;
+  color: azure;
+  text-decoration: none;
+  font-size: 1.75rem;
+}
+
+#link:hover {
+  color: #FFE046;
+  
+}
+
+
+
+h1 span:nth-child(28) {
+  
+  font-size: 4rem;
+  animation-delay: 5s;
+  padding: 5px 20px;
+  border: 5px solid #DA3330;
+  border-radius: 35px;
+  
+}
+
+#link {
+  color: #FF4E41;
+}
+
+/* Particles */
+/* #particles-js{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+} */
+
+#main-background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  
+}
+
+.main-intro {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  color: aliceblue;
+  font-size: 3.5rem;
+}
+
+.i-link {
+  margin: 10px;
+  color: white;
+ font-size: 1.5em;
+}
+
+.i-link:hover {
+  font-size: 2em;
+  color: #c051ff;
+}
